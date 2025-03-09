@@ -1,0 +1,16 @@
+
+
+
+mongodb+srv://temp:Fgouter55%23@cluster0.bblcm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+@app.js
+- Creates proxy server that forwards requests to original site
+- Modifies HTML content to remove watermarks and unwanted scripts
+
+@package.json
+- Lists required dependencies: express, http-proxy-middleware
+- Defines npm scripts to run the server
+
+@views/layout.ejs
+- Contains basic HTML template (not actively used in current setup)
+- Can be used for future custom page modifications
